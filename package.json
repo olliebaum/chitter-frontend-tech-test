@@ -4,8 +4,15 @@
   "description": "The task is to build a front-end single-page-app that interfaces with this [chitter backend API](https://github.com/makersacademy/chitter_api_backend).",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-jest": "^23.6.0",
+    "babel-preset-env": "^1.7.0",
+    "jest": "^23.6.0",
+    "puppeteer": "^1.10.0"
+  }
 }
